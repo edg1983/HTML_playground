@@ -1,14 +1,21 @@
 .sidebar {
     display: flex;
+    height: 100%;
     width: 20%;
     background: green;
     border: 1px solid darkgreen;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
 }
 
 .mainarea {
     height: 100%;
     margin-left: 20%;
     background: aquamarine;
+}
+
+.sidelink {
+    background: orange;
+    border: 2px solid red;
 }
