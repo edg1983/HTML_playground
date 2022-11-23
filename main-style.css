@@ -1,12 +1,13 @@
 .sidebar {
     display: flex;
     width: 20%;
+    background: green;
     border: 1px solid darkgreen;
     flex-direction: column;
     justify-content: space-around;
 }
 
 .mainarea {
-    margin: 20%;
+    margin-left: 20%;
     background: aquamarine;
 }
