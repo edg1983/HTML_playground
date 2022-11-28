@@ -1,6 +1,6 @@
 .page {
     display: grid;
-    grid-template: 10px auto / 20% 80%;
+    grid-template: 40px auto / 1fr 4fr;
 }
 
 .statusbar {
