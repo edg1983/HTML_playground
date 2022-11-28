@@ -1,7 +1,22 @@
+.page {
+    display: grid;
+    grid-template: 10% 90% / 20% 80%;
+}
+
+.statusbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    grid-column: span 2;
+    background-color: azure;
+}
+
+.statusitem {
+    border: 2px solid blue;
+    background-color: aqua;
+}
+
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
     display: flex;
     height: 100%;
     width: 20%;
@@ -18,7 +33,7 @@
 }
 
 .sidelink {
-    background: orange;
-    border: 2px solid red;
+    background: lightgreen;
+    border: 2px solid black;
     text-align: center;
 }
