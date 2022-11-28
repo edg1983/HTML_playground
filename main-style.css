@@ -1,6 +1,6 @@
 .page {
     display: grid;
-    grid-template: 40px auto / 1fr 4fr;
+    grid-template: 30px auto / 1fr 4fr;
 }
 
 .statusbar {
@@ -24,7 +24,6 @@
 }
 
 .mainarea {
-    margin-left: 20%;
     background: aquamarine;
 }
 
