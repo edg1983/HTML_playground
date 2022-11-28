@@ -1,13 +1,13 @@
 .page {
     display: grid;
-    grid-template: 10% 90% / 20% 80%;
+    grid-template: 10px auto / 20% 80%;
 }
 
 .statusbar {
     display: flex;
     justify-content: flex-end;
-    gap: 5px;
     grid-column: span 2;
+    gap: 5px;
     background-color: azure;
 }
 
@@ -18,16 +18,12 @@
 
 .sidebar {
     display: flex;
-    height: 100%;
-    width: 20%;
     background: green;
-    padding: 20px;
     flex-direction: column;
     gap: 10px;
 }
 
 .mainarea {
-    height: 100%;
     margin-left: 20%;
     background: aquamarine;
 }
