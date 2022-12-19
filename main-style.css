@@ -1,9 +1,13 @@
 .page {
     display: grid;
-    grid-template: 30px auto / 1fr 4fr;
+    grid-gap: 2px;
+    grid-template-areas: 
+        "statusbar statusbar statusbar statusbar"
+        "sidebar mainarea mainarea mainarea";
 }
 
 .statusbar {
+    grid-area: statusbar;
     display: flex;
     justify-content: flex-end;
     grid-column: span 2;
@@ -17,6 +21,7 @@
 }
 
 .sidebar {
+    grid-area: sidebar;
     display: flex;
     background: green;
     flex-direction: column;
@@ -24,6 +29,7 @@
 }
 
 .mainarea {
+    grid-area: mainarea;
     background: aquamarine;
 }
 
